@@ -17,21 +17,23 @@ const CardComponents = ({group, addFavorite, crawl}) => {
     addFavorite={addFavorite}
   />)})
 
+  // 'https://nathan-froeh.github.io/lightside/'
+
   return (
     <section className='cardComponents'>
 
-      {page === 'http://localhost:3000/' && crawl.title === '' && loadingIcon}
+      {page === 'https://nathan-froeh.github.io/lightside/' && crawl.title === '' && loadingIcon}
 
-      {page === 'http://localhost:3000/' && crawl.title !== '' && <Home crawl={crawl} loadingIcon={loadingIcon}/>}
+      {page === 'https://nathan-froeh.github.io/lightside/' && crawl.title !== '' && <Home crawl={crawl} loadingIcon={loadingIcon}/>}
 
-      {page !== 'http://localhost:3000/' 
-        && page !== 'http://localhost:3000/favorites' 
+      {page !== 'https://nathan-froeh.github.io/lightside/' 
+        && page !== 'https://nathan-froeh.github.io/lightside/favorites' 
         && group.length === 0 && loadingIcon
       }
 
-      {group.length !== 0 && page !== 'http://localhost:3000/' && cards}
+      {group.length !== 0 && page !== 'https://nathan-froeh.github.io/lightside/' && cards}
 
-      {group.length === 0 && page === 'http://localhost:3000/favorites' 
+      {group.length === 0 && page === 'https://nathan-froeh.github.io/favorites' 
         && <h2>You do not have any favorites</h2>
       }
 

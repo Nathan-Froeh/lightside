@@ -7,7 +7,7 @@ const Nav = ({getCrawl, getPeople, getPlanets, getVehicles, allFavorites}) => {
   return (
     <nav>
       <NavLink 
-        to={'/'} 
+        to={'/lightside/'} 
         className='nav home' 
         onClick={getCrawl}
       > 
@@ -15,28 +15,28 @@ const Nav = ({getCrawl, getPeople, getPlanets, getVehicles, allFavorites}) => {
       </NavLink>
       <section>
         <NavLink 
-          to='/people' 
+          to='/lightside/people' 
           className='nav link' 
           onClick={getPeople}
         > 
           <h2>PEOPLE</h2> 
         </NavLink>
         <NavLink 
-          to='/planets' 
+          to='/lightside/planets' 
           className='nav link' 
           onClick={getPlanets}
         > 
           <h2>PLANETS</h2> 
         </NavLink>
         <NavLink 
-          to='/vehicles' 
+          to='/lightside/vehicles' 
           className='nav link' 
           onClick={getVehicles}
         > 
           <h2>VEHICLES</h2> 
         </NavLink>
         <NavLink 
-          to='/favorites' 
+          to='/lightside/favorites' 
           className='nav link' 
         > 
           <h2>FAVORITES <span>{allFavorites.length}</span></h2>
