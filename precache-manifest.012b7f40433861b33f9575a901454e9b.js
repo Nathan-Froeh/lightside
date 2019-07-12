@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7aad8108ab6dfed697c228f3de2c72e7",
+    "revision": "b2dd0e7a345abf21da4d696dcfaf7a79",
     "url": "/lightside/index.html"
   },
   {
-    "revision": "80e5cac210e5d0cda7d2",
+    "revision": "c514f02c37297b24b1ea",
     "url": "/lightside/static/css/main.ef050a4b.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lightside/static/js/2.61bbfb1b.chunk.js"
   },
   {
-    "revision": "80e5cac210e5d0cda7d2",
-    "url": "/lightside/static/js/main.c5651cdd.chunk.js"
+    "revision": "c514f02c37297b24b1ea",
+    "url": "/lightside/static/js/main.36a39526.chunk.js"
   },
   {
     "revision": "ecdc0bcbd4ae9fd720f2",
