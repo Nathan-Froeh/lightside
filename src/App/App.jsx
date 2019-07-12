@@ -147,8 +147,8 @@ class App extends Component {
           getVehicles={this.showVehicles}
           allFavorites={this.state.allFavorites}
         />
-        <Route 
-          exact path='/' 
+        <Route
+          exact path='/lightside/' 
           component={() => <CardComponents 
             group={this.state.people} 
             addFavorite={this.handleFavorite}
@@ -156,28 +156,28 @@ class App extends Component {
           />}
         />
         <Route 
-          exact path='/people' 
+          exact path='/lightside/people' 
           component={() => <CardComponents 
             group={this.state.people} 
             addFavorite={this.handleFavorite}
           />}
         />
         <Route 
-          exact path='/planets' 
+          exact path='/lightside/planets' 
           component={() => <CardComponents 
             group={this.state.planets}
             addFavorite={this.handleFavorite}
           />}
         />
         <Route 
-          exact path='/vehicles' 
+          exact path='/lightside/vehicles' 
           component={() => <CardComponents 
             group={this.state.vehicles}
             addFavorite={this.handleFavorite}
           />}
         />
         <Route 
-          exact path='/favorites' 
+          exact path='/lightside/favorites' 
           component={() => <CardComponents 
             group={this.state.allFavorites}
             addFavorite={this.handleFavorite}

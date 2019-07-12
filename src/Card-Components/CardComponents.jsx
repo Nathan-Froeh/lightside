@@ -33,7 +33,7 @@ const CardComponents = ({group, addFavorite, crawl}) => {
 
       {group.length !== 0 && page !== 'https://nathan-froeh.github.io/lightside/' && cards}
 
-      {group.length === 0 && page === 'https://nathan-froeh.github.io/lightside/favorites' 
+      {group.length === 0 && page === 'https://nathan-froeh.github.io/favorites' 
         && <h2>You do not have any favorites</h2>
       }
 
