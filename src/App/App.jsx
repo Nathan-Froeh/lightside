@@ -19,13 +19,13 @@ class App extends Component {
   }
   
   componentDidMount = () => {
-    if (window.location.href === 'http://localhost:3000/people') {
+    if (window.location.href === 'https://nathan-froeh.github.io/lightside/people') {
       this.showPeople()
-    } else if (window.location.href === 'http://localhost:3000/planets') {
+    } else if (window.location.href === 'https://nathan-froeh.github.io/lightside/planets') {
       this.showPlanets()
-    } else if (window.location.href === 'http://localhost:3000/vehicles') {
+    } else if (window.location.href === 'https://nathan-froeh.github.io/lightside/vehicles') {
       this.showVehicles()
-    } else if (window.location.href === 'http://localhost:3000/') {
+    } else if (window.location.href === 'https://nathan-froeh.github.io/lightside/') {
       this.showCrawl()
     }
   }
